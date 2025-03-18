@@ -1,0 +1,27 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.full-page {
+    height: 100vh;
+}
+
+.block {
+    color: white;
+    background-color: #0A100D;
+    padding: 5%;
+    align-content: center;
+}
+
+.block-1 {
+    color: black;
+    background-color: #D6D5C9;
+}
+
+.block-2 {
+    color: white;
+    background-color: #902923
+}
