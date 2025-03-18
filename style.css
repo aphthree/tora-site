@@ -15,23 +15,48 @@ body {
 
 .block {
     color: white;
-    background-color: #0A100D;
+    background-color: #0a100d;
     padding: 5%;
     align-content: center;
 }
 
 .block-1 {
-    color: black;
-    background-color: #D6D5C9;
+    color: #0a100d;
+    background-color: #d6d5c9;
 }
 
 .block-2 {
     color: white;
-    background-color: #902923
+    background-color: #902923;
 }
 
+.block-3 {
+    color: #0a100d;
+    background-color: #B9BAA3;
+}
 
-.list-2 {
-    color: white;
-    background-color: #902923
+.block-4 {
+    color: #0a100d;
+    background-color: #d6d5c9;
+    padding: 5%
+}
+.card {
+    padding: 10%;
+    }
+
+@media (max-width: 576px) {
+    .block-3 {
+        display: flex;
+        flex-direction: row;
+    }
+    .first-order-responsive {
+        order: 1;
+    }
+    .second-order-responsive {
+        order: 2;
+    }
+    .class-list {
+        text-align-last: center;
+        padding: 80px;
+    }
 }
