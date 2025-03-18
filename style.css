@@ -9,6 +9,10 @@ body {
     height: 100vh;
 }
 
+.half-page {
+    height: 50vh;
+}
+
 .block {
     color: white;
     background-color: #0A100D;
@@ -22,6 +26,12 @@ body {
 }
 
 .block-2 {
+    color: white;
+    background-color: #902923
+}
+
+
+.list-2 {
     color: white;
     background-color: #902923
 }
